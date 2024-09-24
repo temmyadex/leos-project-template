@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+    width: 80%;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    margin: auto;
+}
+
+h1, h2{
+    color: grey;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+ul{
+    display: flex;  
+}
+
+li{
+    text-transform: uppercase;
+    padding: 10px; 
+    /* background-color: rgb(255, 230, 109); */
+}
+.parent{
+    display: flex;
+    /* border: 1px solid green ; */
+    height: 200px;
+}
+.child{
+    width: 50%;
+    text-align: center;
+}
+.second{
+    margin: 7.5%;
+}
